@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-        <div id="main" class="container">
+        <div id="main" class="main-container">
                     <div id="posts">
 
 <?php
