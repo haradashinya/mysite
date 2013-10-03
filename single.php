@@ -18,18 +18,23 @@ if (have_posts()) :
     </div>
     </div>
     <div class="post-content">
-    <div class="post-image">
+
     <?php if (has_post_thumbnail()) :?>
     <?php the_post_thumbnail(array(100,100)); ?>
     <?php else: ?>
     <img src="<?php echo get_template_directory_uri(); ?>/img/noimage.png" width="100" height="100">
     <?php endif ?>
-    </div>
-    <div class="post-body">
-    <?php the_excerpt(); ?>
+
+
+
+    <?php the_content(); ?>
 </div>
-    </div>
     </div><!-- /post -->
+
+    <div class="navigation">
+    <div class="prev"><?php previous_post_link(); ?></div>
+    <div class="next"><?php next_post_link(); ?></div>
+    </div>
 
 <?php
 endwhile;
@@ -42,11 +47,6 @@ else:
 endif;
 ?>
 
-    <div class="navigation">
-    <div class="prev"><?php previous_posts_link();?></div>
-    <div class="next"><?php next_posts_link(); ?></div>
-    </div>
     </div><!-- /posts -->
     <?php get_sidebar(); ?>
 </div><!-- /main -->
-<?php get_footer();?>
