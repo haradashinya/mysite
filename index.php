@@ -1,11 +1,10 @@
-<!doctype html>
-<html lang='ja'>
+<!DOCTYPE html>
+<html lang="ja">
     <head>
-        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.9.1/build/cssreset/cssreset-min.css">
-
-        <link rel="stylesheet" type="text/css" href="layout.css">
         <meta charset="utf-8">
         <title>はじめてのWordPress</title>
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.9.1/build/cssreset/cssreset-min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
         <div id="header" class="container">
@@ -15,8 +14,7 @@
                 <li><a href="">menu</a></li>
                 <li><a href="">menu</a></li>
             </ul>
-        </div>
-
+        </div><!-- /header -->
         <div id="main" class="container">
             <div id="posts">
                 <div class="post">
@@ -25,7 +23,7 @@
                             <a href="">タイトル</a>
                         </h2>
                         <div class="post-meta">
-                            2013年4月3日[カテゴリ]
+                            2013年4月3日 【カテゴリ】
                         </div>
                     </div>
                     <div class="post-content">
@@ -33,31 +31,30 @@
                             <img src="img/noimage.png" width="100" height="100">
                         </div>
                         <div class="post-body">
-                            <p>本 本 本 本 本 本 本 本 本 本 本 本 本 本 本 本文文文文文文文文文文文文文文文文</p>
+                            <p>本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。<p>
                         </div>
                     </div>
-                </div>
-
+                </div><!-- /post -->
                 <div class="navigation">
                     <div class="prev">prev</div>
                     <div class="next">next</div>
                 </div>
-            </div>
-
-
+            </div><!-- /posts -->
             <div id="sidebar">
                 <div class="widget">
                     <h3>カテゴリー</h3>
                     <ul>
-                        <li><a href="">item</a>
-                        <li><a href="">item</a>
-                        <li><a href="">item</a>
+                        <li><a href="">item</a></li>
+                        <li><a href="">item</a></li>
+                        <li><a href="">item</a></li>
                     </ul>
                 </div>
-            </div>
-        </div>
+            </div><!-- /sidebar -->
+        </div><!-- /main -->
         <div id="footer" class="container">
             footer
-        </div>
+        </div><!-- /footer -->
     </body>
 </html>
+
+
