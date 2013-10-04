@@ -40,7 +40,7 @@ endif;
 
 
 
-<div class="wrapper">
+<div id="footer-wrapper">
     <div class="row">
     <div class="large-12 columns">
     <?php get_footer();?>

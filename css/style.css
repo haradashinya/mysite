@@ -67,7 +67,11 @@ section a {
   text-align: right; }
 
 #footer {
+  width: 100%;
   padding: 15px 0;
   font-size: 12px;
-  color: #aaa;
+  color: #aaa; }
+
+#footer-wrapper {
+  width: 100%;
   border-top: 1px solid #ccc; }

@@ -1,5 +1,5 @@
-<div id="footer" class="container">
-Copyright
+<div id="footer" class="">
+Powerd by nobinobiru.
 <?php wp_footer();?>
 </body>
 
