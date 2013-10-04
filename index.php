@@ -1,7 +1,15 @@
 <?php get_header(); ?>
 
 <div class="row">
-<div class="large-9 columns">
+<div class="large-12 small-12 columns">
+<?php get_search_form(); ?>
+</div>
+</div>
+
+
+
+<div class="row">
+<div class="large-12 small-12 columns">
 <?php
 if (have_posts()) :
     while (have_posts()) :
@@ -22,19 +30,19 @@ endwhile;
     <div class="next"><?php next_posts_link(); ?></div>
     </div>
 
-</div> <!-- column -->
+</div>
 
-<div class="large-3 columns">
-<div id="sidebar">
-<?php  get_sidebar();  ?>
-</div>
-</div>
+
+
 
 </div><!-- /row-->
+
 
 <?php
 endif;
 ?>
+
+
 
 
 

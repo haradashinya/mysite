@@ -6,12 +6,11 @@
         <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.9.1/build/cssreset/cssreset-min.css">
 
         <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/foundation.css">
+        <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/Buttons/css/button.css">
         <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Cantora+One' rel='stylesheet' type='text/css'>
 
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-
-
-
     </head>
     <body>
 

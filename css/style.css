@@ -8,7 +8,7 @@
  * */
 body {
   font-size: 14px;
-  font-family: Arial; }
+  font-family: 'Cantora One', sans-serif; }
 
 hgroup h1 {
   font-size: 30px; }
@@ -48,11 +48,10 @@ h1 {
   font-size: 18px;
   padding: 15px 0; }
 
-section {
-  float: left;
-  width: 200px; }
-  section a {
-    text-decoration: underline; }
+section a {
+  text-decoration: underline; }
+section .post-content {
+  margin-top: 15px; }
 
 /* /navigation */
 .navigation {
