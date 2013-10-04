@@ -1,10 +1,6 @@
 <?php get_header(); ?>
 
-<div class="row">
-<div class="large-12 small-12 columns">
-<?php get_search_form(); ?>
-</div>
-</div>
+
 
 
 

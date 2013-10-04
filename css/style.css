@@ -48,10 +48,25 @@ h1 {
   font-size: 18px;
   padding: 15px 0; }
 
+#searchsubmit {
+  width: 44px;
+  height: 44px;
+  text-shadow: none;
+  border: none;
+  background: gray;
+  border-radius: 44px;
+  margin-top: -5px;
+  color: white; }
+  #searchsubmit:hover {
+    background: #949494; }
+
 section a {
   text-decoration: underline; }
 section .post-content {
   margin-top: 15px; }
+
+.screen-reader-text {
+  display: none; }
 
 /* /navigation */
 .navigation {
