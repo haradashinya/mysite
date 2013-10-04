@@ -11,12 +11,18 @@
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 
 
-    <?php echo get_stylesheet_uri(); ?>
 
     </head>
     <body>
-        <div id="header" class="container">
-        <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name');?></a></h1>
-        <?php wp_nav_menu();?>
-        </div><!-- /header -->
+
+    <header>
+        <div class="row">
+            <div class="large-12 small-12 columns">
+            <hgroup>
+                <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name');?></a></h1>
+            </hgroup>
+            <?php wp_nav_menu();?>
+            </div>
+        </div>
+    </header>
 <?php wp_head(); ?>

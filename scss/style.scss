@@ -7,13 +7,24 @@
  * Version: 1.0
  * */
 
+// layout
 
 body {
     font-size: 14px;
     font-family: Arial;
+    background: black;
+}
+hgroup {
+    h1 {
+        font-size: 30px;
+    }
 }
 a {
     text-decoration: none;
+    color: #222;
+    &:hover {
+        color: #777;
+    }
 }
 
 p {
@@ -21,19 +32,39 @@ p {
     margin: 0;
     line-height: 1.8;
 }
-.main-container {
-    width: 600px;
-    background: red;
-    margin: 0 auto;
-    overflow: hidden;
-}
-.container {
-    width: 600px;
-    margin: 0 auto;
-    overflow: hidden;
-}
+$header_color: darken(#fff,3%);
+$main_color: darken(#fff,5%);
 
-#header {
+
+
+
+
+header {
+    height: 80px;
+    background:  $header_color;
+    h1 {
+        color: white;
+        line-height: 40px;
+    }
+
+
+    .menu {
+        background: white;
+        font-size: 20px;
+        list-style: none;
+        overflow: hidden;
+    }
+    .menu > li {
+        float: left;
+        width: 150px;
+    }
+
+    .menu a {
+        padding: 10px 0;
+        display: block;
+    }
+
+
 
 }
 
@@ -42,28 +73,7 @@ h1 {
     font-size: 18px;
     padding: 15px 0;
 }
-.menu {
-    background: #f39800;
-    margin-bottom: 30px;
-    font-size: 12px;
-    list-style: none;
-    overflow: hidden;
-    padding: 0;
-}
-.menu > li {
-    float: left;
-    width: 150px;
-    text-align: center;
-}
 
-.menu a {
-    padding: 10px 0;
-    color: #fff;
-    display: block;
-}
-.menu a:hover {
-    background: #ffc35c;
-}
 
 /* posts */
 #posts {
