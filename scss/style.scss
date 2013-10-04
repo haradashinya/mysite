@@ -41,6 +41,8 @@ $main_color: darken(#fff,5%);
 header {
     height: 80px;
     background:  $header_color;
+
+
     h1 {
         color: white;
         line-height: 40px;
@@ -49,13 +51,17 @@ header {
 
     .menu {
         background: white;
-        font-size: 20px;
+        font-size: 18px;
         list-style: none;
         overflow: hidden;
+        border-bottom: solid 1px #ccc;
+
+
+
     }
     .menu > li {
         float: left;
-        width: 150px;
+        width: 100px;
     }
 
     .menu a {
@@ -73,9 +79,16 @@ h1 {
     padding: 15px 0;
 }
 
-section a {
-    text-decoration: underline;
+section  {
+    float: left;
+    width: 200px;
+    a {
+        text-decoration: underline;
+    }
+
 }
+
+
 
 
 
@@ -89,15 +102,48 @@ section a {
     font-size: 12px;
     margin-bottom: 15px;
 }
-    .prev {
-        float: left;
-        width: 200px;
-        }
-    .next {
-        float: right;
-        width: 200px;
-        text-align: right;
+.prev {
+    float: left;
+    width: 200px;
     }
+.next {
+    float: right;
+    width: 200px;
+    text-align: right;
+}
+
+
+#sidebar {
+    h3 {
+        font-size: 16px;
+        padding: 5px 30px;
+    }
+    ul {
+        margin: 0 0 0 10px;
+    }
+    li {
+        text-align: left;
+        margin: 5px 0;
+        padding-left: 5px;
+    }
+    .widget {
+        // background: darken($header_color,2%);
+        margin-bottom: 15px;
+        padding: 5px;
+    }
+    #searchform {
+        padding: 5px;
+    }
+    #searchsubmit {
+        background: #ccc;
+        height: 44px;
+    }
+
+}
+
+
+
+
 
 #footer {
     width: 100%;
@@ -110,7 +156,7 @@ section a {
 #footer-wrapper {
     width: 100%;
     border-top: 1px solid #ccc;
-    background: #f1f1f1;
+    background: darken(#f1f1f1,8%);
     height: 80px;
 }
 

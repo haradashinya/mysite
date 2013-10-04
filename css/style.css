@@ -32,12 +32,13 @@ header {
     line-height: 40px; }
   header .menu {
     background: white;
-    font-size: 20px;
+    font-size: 18px;
     list-style: none;
-    overflow: hidden; }
+    overflow: hidden;
+    border-bottom: solid 1px #ccc; }
   header .menu > li {
     float: left;
-    width: 150px; }
+    width: 100px; }
   header .menu a {
     padding: 10px 0;
     display: block; }
@@ -47,8 +48,11 @@ h1 {
   font-size: 18px;
   padding: 15px 0; }
 
-section a {
-  text-decoration: underline; }
+section {
+  float: left;
+  width: 200px; }
+  section a {
+    text-decoration: underline; }
 
 /* /navigation */
 .navigation {
@@ -66,6 +70,24 @@ section a {
   width: 200px;
   text-align: right; }
 
+#sidebar h3 {
+  font-size: 16px;
+  padding: 5px 30px; }
+#sidebar ul {
+  margin: 0 0 0 10px; }
+#sidebar li {
+  text-align: left;
+  margin: 5px 0;
+  padding-left: 5px; }
+#sidebar .widget {
+  margin-bottom: 15px;
+  padding: 5px; }
+#sidebar #searchform {
+  padding: 5px; }
+#sidebar #searchsubmit {
+  background: #ccc;
+  height: 44px; }
+
 #footer {
   width: 100%;
   padding: 15px 0;
@@ -75,5 +97,5 @@ section a {
 #footer-wrapper {
   width: 100%;
   border-top: 1px solid #ccc;
-  background: #f1f1f1;
+  background: #dddddd;
   height: 80px; }
