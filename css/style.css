@@ -68,6 +68,11 @@ section a {
 section .post-content {
   margin-top: 15px; }
 
+.post-date {
+  font-size: 12px;
+  float: right;
+  font-weight: normal; }
+
 .screen-reader-text {
   display: none; }
 

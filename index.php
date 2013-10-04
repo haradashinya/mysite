@@ -14,7 +14,10 @@ if (have_posts()) :
     <section class="post">
         <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
         <div class="post-content">
-        <?php  the_excerpt();  ?>
+        <?php  the_content();  ?>
+        </div>
+        <div class="post-date">
+        <?php the_date(); ?>
         </div>
     </section>
 <?php
