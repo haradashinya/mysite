@@ -82,6 +82,9 @@ h1 {
     padding: 15px 0;
 }
 
+#search-wrapper {
+    margin-top: 15px;
+}
 #searchsubmit {
     $search_btn_color: darken(#ccc,30%);
     width: 44px;

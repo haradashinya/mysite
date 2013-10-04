@@ -24,7 +24,7 @@
 
 
 
-        <div class="row">
+        <div id="search-wrapper" class="row">
             <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
                 <div class="large-11 small-10 columns">
                         <input type="text" value="" name="s" id="s" />
