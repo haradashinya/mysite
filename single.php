@@ -1,6 +1,11 @@
 <?php get_header(); ?>
-        <div id="main" class="container">
-                    <div id="posts">
+
+
+<div class="row">
+<div class="large-12 columns">
+
+<div id="main" class="container">
+            <div id="posts">
 
 <?php
 if (have_posts()) :
@@ -14,15 +19,14 @@ if (have_posts()) :
     <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
     </h2>
     <div class="post-meta">
-    <?php echo get_the_date(); ?> 【<?php the_category(', '); ?>】
+    <?php echo get_the_date(); ?>
     </div>
     </div>
     <div class="post-content">
 
     <?php if (has_post_thumbnail()) :?>
-    <?php the_post_thumbnail(array(100,100)); ?>
+    <?php /* the_post_thumbnail(array(100,100));  */?>
     <?php else: ?>
-    <img src="<?php echo get_template_directory_uri(); ?>/img/noimage.png" width="100" height="100">
     <?php endif ?>
 
 
@@ -48,5 +52,8 @@ endif;
 ?>
 
     </div><!-- /posts -->
-    <?php get_sidebar(); ?>
+    <?php /* get_sidebar(); */ ?>
 </div><!-- /main -->
+</div>
+</div>
+
