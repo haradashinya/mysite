@@ -1,60 +1,56 @@
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <title>はじめてのWordPress</title>
-        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.9.1/build/cssreset/cssreset-min.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div id="header" class="container">
-            <h1><a href="">はじめてのWordPress</a></h1>
-            <ul class="menu">
-                <li><a href="">menu</a></li>
-                <li><a href="">menu</a></li>
-                <li><a href="">menu</a></li>
-            </ul>
-        </div><!-- /header -->
-        <div id="main" class="container">
-            <div id="posts">
-                <div class="post">
-                    <div class="post-header">
-                        <h2>
-                            <a href="">タイトル</a>
-                        </h2>
-                        <div class="post-meta">
-                            2013年4月3日 【カテゴリ】
-                        </div>
-                    </div>
-                    <div class="post-content">
-                        <div class="post-image">
-                            <img src="img/noimage.png" width="100" height="100">
-                        </div>
-                        <div class="post-body">
-                            <p>本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。本文。<p>
-                        </div>
-                    </div>
-                </div><!-- /post -->
-                <div class="navigation">
-                    <div class="prev">prev</div>
-                    <div class="next">next</div>
-                </div>
-            </div><!-- /posts -->
-            <div id="sidebar">
-                <div class="widget">
-                    <h3>カテゴリー</h3>
-                    <ul>
-                        <li><a href="">item</a></li>
-                        <li><a href="">item</a></li>
-                        <li><a href="">item</a></li>
-                    </ul>
-                </div>
-            </div><!-- /sidebar -->
-        </div><!-- /main -->
-        <div id="footer" class="container">
-            footer
-        </div><!-- /footer -->
-    </body>
-</html>
+<?php get_header(); ?>
 
 
+
+
+
+<div class="row">
+<div class="large-12 small-12 columns">
+<?php
+if (have_posts()) :
+    while (have_posts()) :
+        the_post();
+?>
+    <section class="post">
+        <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+        <div class="post-content">
+        <?php  the_content();  ?>
+        </div>
+        <div class="post-date">
+        <?php the_date(); ?>
+        </div>
+    </section>
+<?php
+endwhile;
+?>
+
+    <div class="navigation">
+    <div class="prev"><?php previous_posts_link();?></div>
+    <div class="next"><?php next_posts_link(); ?></div>
+    </div>
+
+</div>
+
+
+
+
+</div><!-- /row-->
+
+
+<?php
+endif;
+?>
+
+
+
+
+
+
+
+<div id="footer-wrapper">
+    <div class="row">
+    <div class="large-12 columns">
+    <?php get_footer();?>
+    </div>
+    </div>
+</div>
