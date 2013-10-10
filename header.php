@@ -8,13 +8,17 @@
         <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/Buttons/css/button.css">
         <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/style.css">
         <link href='http://fonts.googleapis.com/css?family=Cantora+One' rel='stylesheet' type='text/css'>
+	<meta name="robots" content="nofollow">
+	<meta name="robots" content="noindex">
+
+
+
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     </head>
     <body>
 
     <header>
         <div class="row">
-
             <div class="large-12 small-12 columns">
             <hgroup>
                 <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name');?></a></h1>
