@@ -21,16 +21,26 @@ function shortcode_tw(){
 add_shortcode('tw','shortcode_tw');
 
 
+// 最初の一行目だけ表示させる
+function new_excerpt_mblength($length) {	
+     return 1;	
+}	
 
 
 
 
-function new_excerpt_more( $more ) {
-        return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">Read More</a>';
+
+
+
+
+function new_excerpt_more($more) {
+       global $post;
+	return '<a class="moretag" href="'. get_permalink($post->ID) . '"> (続きを読む)</a>';
 }
 
+
 add_filter('excerpt_mblength', 'new_excerpt_mblength');
-// add_filter( 'excerpt_more', 'new_excerpt_more' );
+add_filter('excerpt_more', 'new_excerpt_more');
 
 
 
