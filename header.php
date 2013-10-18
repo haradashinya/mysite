@@ -28,16 +28,16 @@
 
 
 
-        <div id="search-wrapper" class="row">
-            <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-                <div class="large-11 small-10 columns">
-                        <input type="text" value="" name="s" id="s" />
-                </div>
-            <div class="large-1 small-2 columns">
-                    <input type="submit" id="searchsubmit" class="" value="検索" />
-            </div>
-            </form>
-        </div>
+        <!-- <div id="search-wrapper" class="row"> -->
+        <!--     <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>"> -->
+        <!--         <div class="large-11 small-10 columns"> -->
+        <!--                 <input type="text" value="" name="s" id="s" /> -->
+        <!--         </div> -->
+        <!--     <div class="large-1 small-2 columns"> -->
+        <!--             <input type="submit" id="searchsubmit" class="" value="検索" /> -->
+        <!--     </div> -->
+        <!--     </form> -->
+        <!-- </div> -->
 
         <div class="row">
             <div class="large-12 small-12 columns">

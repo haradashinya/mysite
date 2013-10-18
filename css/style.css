@@ -34,8 +34,7 @@ header {
     background: white;
     font-size: 18px;
     list-style: none;
-    overflow: hidden;
-    border-bottom: solid 1px #ccc; }
+    overflow: hidden; }
   header .menu > li {
     float: left;
     width: 100px; }
