@@ -19,3 +19,21 @@ function shortcode_tw(){
 }
 
 add_shortcode('tw','shortcode_tw');
+
+
+
+
+
+
+function new_excerpt_more( $more ) {
+        return ' <a class="read-more" href="'. get_permalink( get_the_ID() ) . '">Read More</a>';
+}
+
+add_filter('excerpt_mblength', 'new_excerpt_mblength');
+// add_filter( 'excerpt_more', 'new_excerpt_more' );
+
+
+
+
+
+
