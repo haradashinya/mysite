@@ -1,4 +1,3 @@
-<?php get_header(); ?>
 <body>
 <div class="header">
     <div class="row">
@@ -65,9 +64,9 @@ endif;
 
 <div id="footer-wrapper">
     <div class="row">
-    <div class="large-12 small-12 columns">
-    <?php get_footer();?>
-    </div>
+        <div class="large-12 small-12 columns">
+            <?php get_footer();?>
+        </div>
     </div>
 </div>
 
