@@ -41,6 +41,11 @@ function new_excerpt_more($more) {
 
 add_filter('excerpt_mblength', 'new_excerpt_mblength');
 add_filter('excerpt_more', 'new_excerpt_more');
+remove_action('wp_head', 'rsd_link');
+remove_action('wp_head', 'wlwmanifest_link');
+remove_action('wp_head', 'wlwmanifest_link');
+
+
 
 
 
