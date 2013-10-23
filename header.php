@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <meta charset="utf-8">
+      <meta charset="<?php bloginfo ('charset') ; ?>" />
+
         <title><?php wp_title('|',true,'right'); bloginfo('name');?></title>
 
         <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/reset.css">
