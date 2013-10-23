@@ -35,7 +35,7 @@ function new_excerpt_mblength($length) {
 
 function new_excerpt_more($more) {
        global $post;
-	return '<a class="moretag" href="'. get_permalink($post->ID) . '"> (続きを読む)</a>';
+	return '<p><a class="moretag" href="'. get_permalink($post->ID) . '"> Read More ...</a></p>';
 }
 
 
