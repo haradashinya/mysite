@@ -24,89 +24,34 @@ a {
   border-top: solid 1px #cccccc;
   border-bottom: solid 1px #cccccc; }
 
-hgroup h1 {
-  margin-top: 10px;
-  font-size: 25px;
-  font-weight: bold;
-  background-image: url("https://s3-ap-northeast-1.amazonaws.com/2131/logo_furodrive.png");
-  background-position: 0% 50%;
-  background-repeat: no-repeat;
-  padding-left: 45px; }
-  hgroup h1 a {
-    color: #222222; }
-    hgroup h1 a:hover {
-      color: #555555; }
+hgroup {
+  height: 80px; }
+  hgroup h1 {
+    line-height: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    background-image: url("https://s3-ap-northeast-1.amazonaws.com/2131/logo_furodrive.png");
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    padding-left: 45px; }
+    hgroup h1 a {
+      color: #222222; }
+      hgroup h1 a:hover {
+        color: #555555; }
 
-#posts .post h2 {
-  font-weight: bold;
-  font-size: 20px;
-  padding: 30px 0 15px 0;
-  color: #e74c3c; }
-#posts .post h3 {
-  font-weight: bold;
-  font-size: 16px;
-  height: 24px;
-  border-left: solid 10px #e74c3c;
-  vertical-align: middle;
-  padding-left: 10px;
-  line-height: 24px;
-  margin: 10px 0 10px 0; }
-
-.post h1 {
+section.post h1 {
   font-weight: bold;
   font-size: 20px;
-  padding: 30px 0 15px 0;
-  color: #e74c3c !important; }
+  padding: 15px 0 0 0;
+  color: #e74c3c;
+  text-decoration: underline; }
 
-.ribbon {
-  color: #fff;
-  margin: 30px 0 50px;
-  position: relative;
-  text-transform: uppercase;
-  background: #00a4ef;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-  padding: 10px 15px;
-  clear: both; }
-
-div.left_ribbon {
-  color: #000;
-  margin-left: -10px;
-  float: left; }
-
-div.left_ribbon h2 {
-  margin: 0 12px; }
-
-div.left_ribbon::before {
-  display: block;
-  width: 10px;
-  height: 0px;
-  position: absolute;
-  bottom: -10px;
-  left: -11px;
-  content: "";
-  border-bottom: 10px solid transparent;
-  border-right: 10px solid #005074; }
-
-div.left_ribbon::after {
-  display: block;
-  width: 6px;
-  height: 44px;
-  position: absolute;
-  bottom: 3px;
-  right: -1px;
-  content: "";
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  transform: skew(0deg, 45deg);
-  -ms-transform: skew(0deg, 45deg);
-  /* IE 9 */
-  -webkit-transform: skew(0deg, 45deg);
-  /* Safari and Chrome */
-  -o-transform: skew(0deg, 45deg);
-  /* Opera */
-  -moz-transform: skew(0deg, 45deg);
-  /* Firefox */
-  background: #005074; }
+.post-header h2 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 15px 0 10px 0;
+  color: #e74c3c;
+  text-decoration: underline; }
 
 #footer {
   margin-top: 30px;
