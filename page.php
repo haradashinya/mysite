@@ -16,7 +16,7 @@ if (have_posts()) :
     </h2>
     </div>
     <div class="post-content">
-    <?php the_content(); ?>
+     <?php the_content(); ?>
 </div>
     </div><!-- /post -->
 

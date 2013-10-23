@@ -10,8 +10,8 @@
 // layout
 
 body {
-    font-size: 14px;
-    font-family: 'Cantora One', sans-serif;
+    font-size: 1em;
+    font-family:  sans-serif;
 }
 
 
@@ -115,9 +115,12 @@ section  {
     a {
         text-decoration: underline;
     }
-    .post-content {
-        margin-top: 15px;
-    }
+
+}
+
+.post-content {
+    margin-top: 15px;
+    line-height: 1.6;
 }
 .post-date {
     font-size: 12px;
