@@ -13,8 +13,7 @@ if (have_posts()) :
         the_post();
 ?>
 
-    <div class="post">
-    <div class="row">
+    <div class="post row">
     <div class="post-header large-12 small-12 columns">
     <h2>
     <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -26,25 +25,19 @@ if (have_posts()) :
     <div class="row">
     <div class="large-12 small-12 columns">
     <div class="post-content">
-
-    <?php if (has_post_thumbnail()) :?>
-    <?php /* the_post_thumbnail(array(100,100));  */?>
-    <?php else: ?>
-    <?php endif ?>
-
     <?php the_content(); ?>
-
-<!-- //date -->
     <div class="post-meta post-date right">
     <?php echo get_the_date(); ?>
-</div>
     </div>
     </div>
     </div>
-    </div><!-- /post -->
+    </div>
+
     <div class="navigation">
-    <div class="prev"><?php previous_post_link(); ?></div>
-    <div class="next"><?php next_post_link(); ?></div>
+    <span class="prev"><?php previous_post_link(); ?></span>
+    <span class="next right"><?php next_post_link(); ?></span>
+    </div>
+
     </div>
 
 <?php
@@ -62,7 +55,7 @@ endif;
 
 <div id="footer-wrapper">
     <div class="row">
-    <div class="large-12 columns">
+    <div class="large-12 small-12 columns">
     <?php get_footer();?>
     </div>
     </div>
