@@ -9,6 +9,7 @@
 
 // pallete
 $black: #222;
+$red: #e74c3c;
 $border_color: #ccc;
 // layout
 
@@ -23,9 +24,9 @@ p {
     margin: 0 0 10px 0;
 }
 a {
-    color: $black;
+    color: $red;
     &:hover {
-        color: lighten($black,20%);
+        color: lighten($red,20%);
     }
 }
 
@@ -48,7 +49,14 @@ hgroup {
         background-position: 0% 50%;
         background-repeat: no-repeat;
         padding-left: 45px;
+        a {
+            color: $black;
+            &:hover {
+                color: lighten($black,20%);
+            }
+        }
     }
+
 
 }
 
@@ -62,6 +70,7 @@ hgroup {
             font-weight: bold;
             font-size: 20px;
             padding: 30px 0 15px 0;
+            color: $red;
         }
         // article's headline.
         h3 {
@@ -83,6 +92,7 @@ hgroup {
         font-weight: bold;
         font-size: 20px;
         padding: 30px 0 15px 0;
+        color: $red !important;
     }
 }
 
