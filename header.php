@@ -2,15 +2,14 @@
 <html lang="ja">
     <head>
       <meta charset="<?php bloginfo ('charset') ; ?>" />
-
         <title><?php wp_title('|',true,'right'); bloginfo('name');?></title>
 
         <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/reset.css">
         <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/foundation.css">
 
         <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/style.css">
-        <!-- <meta name="robots" content="nofollow"> -->
-        <!-- <meta name="robots" content="noindex"> -->
+        <meta name="robots" content="nofollow">
+        <meta name="robots" content="noindex">
         <meta name="viewport" content="width=device-width, user-scalable=false;">
 
 
