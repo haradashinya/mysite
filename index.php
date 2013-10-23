@@ -1,6 +1,4 @@
-<body>
 <?php get_header(); ?>
-
 <div class="row">
 <div class="large-12 small-12 columns">
 
@@ -53,8 +51,3 @@ endif;
 
 
 
-
-
-
-
-</body>

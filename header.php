@@ -15,6 +15,8 @@
 
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     </head>
+
+    <body>
     <header>
         <div class="row">
             <div class="large-12 small-12 columns">
@@ -24,4 +26,5 @@
             </div>
         </div>
     </header>
+
 <?php wp_head(); ?>
