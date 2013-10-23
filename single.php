@@ -32,12 +32,10 @@ if (have_posts()) :
     <?php else: ?>
     <?php endif ?>
 
-
-
     <?php the_content(); ?>
 
 <!-- //date -->
-    <div class="post-meta right">
+    <div class="post-meta post-date right">
     <?php echo get_the_date(); ?>
 </div>
     </div>
