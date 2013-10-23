@@ -22,9 +22,9 @@ add_shortcode('tw','shortcode_tw');
 
 
 // 最初の一行目だけ表示させる
-function new_excerpt_mblength($length) {	
-     return 1;	
-}	
+function new_excerpt_mblength($length) {
+     return 1;
+}
 
 
 
@@ -53,7 +53,7 @@ function remove_recent_comments_style() {
 }
 add_action( 'widgets_init', 'remove_recent_comments_style' );
 remove_action('wp_head', '_admin_bar_bump_cb');
-add_theme_support( 'admin-bar', array( 'callback' => '__return_false') );
+// add_theme_support( 'admin-bar', array( 'callback' => '__return_false') );
 
 
 
