@@ -32,19 +32,19 @@ a {
 
 
 header {
-    padding: 0 0 30px 0;
+    padding: 0;
     margin: 0;
     border-bottom: solid 1px $border_color;
-
-    // background: blue;
 }
 
 
 hgroup {
+    margin-top: -30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     h1 {
         font-size: 25px;
         font-weight: bold;
-
         background-image: url('https://s3-ap-northeast-1.amazonaws.com/2131/logo_furodrive.png');
         background-position: 0% 50%;
         background-repeat: no-repeat;
