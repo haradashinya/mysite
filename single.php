@@ -39,10 +39,19 @@
                     <!-- end post-content -->
 
                     <!-- begin post-date -->
+                    <div class="clearfix">
                     <div class="post-meta post-date right">
                         <?php echo get_the_date(); ?>
                     </div>
+                    </div>
                     <!-- end post-date -->
+
+                     <!-- post navigation -->
+                    <div class="navigation clearfix">
+                        <span class="prev"><?php previous_post_link(); ?></span>
+                        <span class="next right"><?php next_post_link(); ?></span>
+                    </div>
+                    <!-- end post navigation -->
 
 
 
@@ -54,26 +63,11 @@
                     ?>
                 </div>
 
-
-
-
-
-
-
-
             </div>
         </div>
     </div>
 
-    <div class="row">
-        <div class="large-12 small-12 columns">
-            <div class="navigation clearfix">
-                <span class="prev"><?php previous_post_link(); ?></span>
-                <span class="next right"><?php next_post_link(); ?></span>
-            </div>
 
-        </div>
-    </div>
 
 
 
