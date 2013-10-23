@@ -7,123 +7,39 @@
  * Version: 1.0
  * */
 body {
-  font-size: 1em;
-  font-family: sans-serif; }
-
-hgroup h1 {
-  font-size: 30px;
-  background-image: url("https://s3-ap-northeast-1.amazonaws.com/2131/logo_furodrive.png");
-  background-position: 0% 50%;
-  background-repeat: no-repeat;
-  padding-left: 45px; }
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.6em; }
 
 a {
-  text-decoration: none;
-  color: #222; }
+  color: #222222; }
   a:hover {
-    color: #777; }
+    color: #555555; }
 
-p {
-  padding-bottom: 14px;
-  margin: 0;
-  line-height: 1.8; }
+hgroup {
+  height: 100px;
+  line-height: 100px; }
+  hgroup h1 {
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom: solid 1px #cccccc;
+    background-image: url("https://s3-ap-northeast-1.amazonaws.com/2131/logo_furodrive.png");
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    padding-left: 45px; }
 
-header {
-  height: 80px;
-  background: #f7f7f7; }
-  header h1 {
-    color: white;
-    line-height: 40px; }
-  header .menu {
-    background: white;
-    font-size: 18px;
-    list-style: none;
-    overflow: hidden; }
-  header .menu > li {
-    float: left;
-    width: 100px; }
-  header .menu a {
-    padding: 10px 0;
-    display: block; }
-
-h1 {
+#posts h2 {
   font-weight: bold;
-  font-size: 18px;
-  padding: 15px 0; }
+  font-size: 20px;
+  padding: 30px 0 15px 0; }
 
-#search-wrapper {
-  margin-top: 15px; }
-
-#searchsubmit {
-  width: 44px;
-  height: 44px;
-  text-shadow: none;
-  border: none;
-  background: gray;
-  border-radius: 44px;
-  margin-top: -5px;
-  color: white; }
-  #searchsubmit:hover {
-    background: #949494; }
-
-section a {
-  text-decoration: underline; }
-
-.post-content {
-  margin-top: 15px;
-  line-height: 1.6; }
-
-.post-date {
-  font-size: 0.8em;
-  float: right;
-  font-weight: normal; }
-
-.screen-reader-text {
-  display: none; }
-
-/* /navigation */
-.navigation {
-  overflow: hidden;
-  padding: 10px 0;
-  font-size: 12px;
-  margin-bottom: 15px; }
-
-.prev {
-  float: left;
-  width: 200px; }
-
-.next {
-  float: right;
-  width: 200px;
-  text-align: right; }
-
-#sidebar h3 {
-  font-size: 16px;
-  padding: 5px 30px; }
-#sidebar ul {
-  margin: 0 0 0 10px; }
-#sidebar li {
-  text-align: left;
-  margin: 5px 0;
-  padding-left: 5px; }
-#sidebar .widget {
-  margin-bottom: 15px;
-  padding: 5px; }
-#sidebar #searchform {
-  padding: 5px; }
-#sidebar #searchsubmit {
-  background: #ccc;
-  height: 44px; }
+.post h1 {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 30px 0 15px 0; }
 
 #footer {
-  width: 100%;
-  padding: 15px 0;
-  font-size: 12px;
-  color: #aaa; }
-
-#footer-wrapper {
-  width: 100%;
-  border-top: 1px solid #ccc;
-  background: #dddddd;
-  background: #ccc;
-  height: 80px; }
+  margin-top: 30px;
+  height: 100px;
+  line-height: 100px;
+  border-top: solid 1px #cccccc; }

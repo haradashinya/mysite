@@ -1,6 +1,7 @@
 <div id="footer" class="">
-Powerd by nobinobiru.
-<?php wp_footer();?>
-</body>
-
+<div class="row">
+<div class="large-12 small-12 columns">
+<a href ="http://furodrive.com">Powerd by furodrive.com</a>
+</div>
+</div>
 </div>
