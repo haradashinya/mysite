@@ -8,8 +8,8 @@
   <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/foundation.css">
 
   <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/style.css">
-  <meta name="robots" content="nofollow">
-  <meta name="robots" content="noindex">
+  <!-- <meta name="robots" content="nofollow"> -->
+  <!-- <meta name="robots" content="noindex"> -->
   <meta name="viewport" content="width=device-width, user-scalable=false">
   <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
   <script>
