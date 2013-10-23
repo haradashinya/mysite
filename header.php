@@ -8,14 +8,14 @@
         <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/foundation.css">
 
         <link rel="stylesheet" type="text/css" href="wp-content/themes/mysite/css/style.css">
-	<meta name="robots" content="nofollow">
-	<meta name="robots" content="noindex">
+        <meta name="robots" content="nofollow">
+        <meta name="robots" content="noindex">
 
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     </head>
 
     <body>
-    <header>
+    <div class="header">
         <div class="row">
             <div class="large-12 small-12 columns">
             <hgroup>
@@ -23,6 +23,6 @@
             </hgroup>
             </div>
         </div>
-    </header>
+    </div>
 
 <?php wp_head(); ?>

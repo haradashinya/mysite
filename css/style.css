@@ -19,14 +19,12 @@ a {
   a:hover {
     color: #f29f97; }
 
-header {
+.header {
   border-top: solid 1px #cccccc;
-  border-bottom: solid 1px #cccccc;
-  line-height: 100px; }
+  border-bottom: solid 1px #cccccc; }
 
 hgroup h1 {
   margin-top: 10px;
-  vertical-align: middle;
   font-size: 25px;
   font-weight: bold;
   background-image: url("https://s3-ap-northeast-1.amazonaws.com/2131/logo_furodrive.png");
