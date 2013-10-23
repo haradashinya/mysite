@@ -63,11 +63,4 @@ endif;
 
 
 
-<div id="footer-wrapper">
-    <div class="row">
-        <div class="large-12 small-12 columns">
-            <?php get_footer();?>
-        </div>
-    </div>
-</div>
-
+<?php get_footer();?>
