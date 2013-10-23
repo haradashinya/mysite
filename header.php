@@ -26,15 +26,6 @@
           </script>
     </head>
 
-    <body>
-    <div class="header">
-        <div class="row">
-            <div class="large-12 small-12 columns">
-            <hgroup>
-                <h1><a href="<?php echo home_url('/'); ?>"><?php bloginfo('name');?>'s blog</a></h1>
-            </hgroup>
-            </div>
-        </div>
-    </div>
+
 
 <?php wp_head(); ?>
