@@ -11,27 +11,41 @@ body {
   font-family: sans-serif;
   line-height: 1.6em; }
 
+p {
+  margin: 0 0 10px 0; }
+
 a {
   color: #222222; }
   a:hover {
     color: #555555; }
 
-hgroup {
+header {
   height: 100px;
+  margin-top: -30px;
   line-height: 100px; }
-  hgroup h1 {
-    font-size: 25px;
-    font-weight: bold;
-    border-bottom: solid 1px #cccccc;
-    background-image: url("https://s3-ap-northeast-1.amazonaws.com/2131/logo_furodrive.png");
-    background-position: 0% 50%;
-    background-repeat: no-repeat;
-    padding-left: 45px; }
 
-#posts h2 {
+hgroup h1 {
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: solid 1px #cccccc;
+  background-image: url("https://s3-ap-northeast-1.amazonaws.com/2131/logo_furodrive.png");
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  padding-left: 45px; }
+
+#posts .post h2 {
   font-weight: bold;
   font-size: 20px;
   padding: 30px 0 15px 0; }
+#posts .post h3 {
+  font-weight: bold;
+  font-size: 16px;
+  height: 24px;
+  border-left: solid 10px #e74c3c;
+  vertical-align: middle;
+  padding-left: 10px;
+  line-height: 24px;
+  margin: 10px 0 10px 0; }
 
 .post h1 {
   font-weight: bold;
