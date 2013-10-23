@@ -16,8 +16,15 @@ body {
 
 
 hgroup {
+
+
     h1 {
         font-size: 30px;
+
+    background-image: url('https://s3-ap-northeast-1.amazonaws.com/2131/logo_furodrive.png');
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    padding-left: 45px;
     }
 }
 a {
@@ -193,6 +200,7 @@ section  {
     width: 100%;
     border-top: 1px solid #ccc;
     background: darken(#f1f1f1,8%);
+    background: #ccc;
     height: 80px;
 }
 
